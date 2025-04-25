@@ -1,0 +1,16 @@
+
+const btn = document.querySelector("button");
+const post = document.querySelector(".post");
+const widget = document.querySelector(".star-widget");
+const edit = document.querySelector(".edit");
+
+
+btn.onclick=()=>{
+    widget.style.display = "none";
+    post.style.display = "block";
+    edit.onclick =()=>{
+        widget.style.display = "block";
+        post.style.display = "none";
+    }
+
+}
