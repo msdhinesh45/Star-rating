@@ -6,7 +6,7 @@ This is a simple and interactive Star Rating UI using HTML, CSS, and JavaScript.
 
 ## 🔗 Live Demo
 
-👉 [Click here to view the live project](https://your-live-link-here)
+👉 [Click here to view the live project](https://msdhinesh45.github.io/Star-rating/)
 
 ---
 
