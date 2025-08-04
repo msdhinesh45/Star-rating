@@ -1,42 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Rating</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Rating</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body> 
-    <div class="wrapper">
-       <h1>Star Ratting</h1>
-        <div class="post">
-            <div class="text">Thanks for your rating!</div>
-                <div class="edit">Edit your response
-            </div>
-        </div>
-        <div class="star-widget">
-            <input type="radio" name="star" id="rate-5">
-            <label for="rate-5" class="fa fa-star"></label>
-            <input type="radio" name="star" id="rate-4">
-            <label for="rate-4" class="fa fa-star"></label>
-            <input type="radio" name="star" id="rate-3">
-            <label for="rate-3" class="fa fa-star"></label>
-            <input type="radio" name="star" id="rate-2">
-            <label for="rate-2" class="fa fa-star"></label>
-            <input type="radio" name="star" id="rate-1">
-            <label for="rate-1" class="fa fa-star"></label>
-            <form action="#">
-                <header> </header>
-                    <div class="btn"><button type="submit">
-                        Rate It
-                    </button></div>
-               
-            </form>
-        </div>
+<body>
+
+  <div class="rating-container">
+    <h2>STAR RATING</h2>
+
+    <div class="stars">
+      <span class="star" data-rating="1">⭐</span>
+      <span class="star" data-rating="2">⭐</span>
+      <span class="star" data-rating="3">⭐</span>
+      <span class="star" data-rating="4">⭐</span>
+      <span class="star" data-rating="5">⭐</span>
     </div>
-    
+
+    <div class="feedback" id="feedback">Please select a rating</div>
+
+    <button id="rateBtn">RATE IT</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
-<script src="script.js"></script>
